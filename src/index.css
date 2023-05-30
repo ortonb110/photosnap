@@ -66,4 +66,26 @@
         border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 1 0;
     }
 
+
+
+    /* Screen Media Queries */
+
+    @media screen and (min-width: 768px) {
+        .btn_default {
+            padding: 1.2rem 2.4rem !important;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        .btn_default {
+            padding: 1.2rem 3.9rem !important;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .btn_default {
+            padding: 1.2rem 0 !important;
+            width: full;
+        }
+    }
+
 }
