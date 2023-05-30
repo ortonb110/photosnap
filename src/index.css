@@ -72,7 +72,7 @@
 
     @media screen and (min-width: 768px) {
         .btn_default {
-            padding: 1.2rem 2.4rem !important;
+            padding: 1.2rem 2.2rem !important;
         }
     }
 
@@ -81,7 +81,7 @@
             padding: 1.2rem 3.9rem !important;
         }
     }
-    @media screen and (max-width: 640px) {
+    @media screen and (max-width: 767px) {
         .btn_default {
             padding: 1.2rem 0 !important;
             width: full;
