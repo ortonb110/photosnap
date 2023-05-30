@@ -1,3 +1,69 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* DM Sans Font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+@layer base {
+    /* Global classes */
+    html {
+        font-size: 62.5%;
+    }
+
+    body {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 1.5rem;
+        letter-spacing: 0;
+        line-height: 25px;
+
+    }
+
+    h1 {
+        font-size: 4rem;
+        line-height: 48px;
+        letter-spacing: 4.17px;
+    }
+    h2 {
+        font-size: 2.4rem;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+    h3 {
+        font-size: 1.8rem;
+        line-height: 25px;
+        letter-spacing: 0px;
+    }
+    h3 {
+        font-size: 1.2rem;
+        line-height: 16px;
+        letter-spacing: 2px;
+    }
+
+    /* Custom classes */
+    .btn {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding: 1.2rem 3.9rem;
+    }
+     
+    .nav-items {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 1.2rem;
+
+    }
+
+    .nav-items:hover {
+        color: #dfdfdf;
+        transition: all ease-in-out 0.2s;
+    }
+    .nav-items.active {
+        border-width: 2px;
+        border-style: solid;
+        
+        border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 1 0;
+    }
+
+}
