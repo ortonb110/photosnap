@@ -45,6 +45,8 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         padding: 1.2rem 3.9rem;
+        font-size: 1.2rem;
+        font-weight: bold;
     }
      
     .nav-items {
@@ -78,7 +80,7 @@
 
     @media screen and (min-width: 1024px) {
         .btn_default {
-            padding: 1.2rem 3.9rem !important;
+            padding: 1.2rem 2.4rem !important;
         }
     }
     @media screen and (max-width: 767px) {
