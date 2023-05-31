@@ -3,35 +3,35 @@ import React from "react";
 //Component
 import BtnArrow from "./BtnArrow";
 
-export default function Hero(props) {
+export default function Hero({data}) {
+  const {header, details, image, design} =data
+  const {desktop, mobile, tablet} = image
   return (
-    <section className=" grid h-[65rem] grid-normal">
-      <div className="w-full bg-black text-white flex justify-center items-center ">
-        <div className="h-[30.4rem] hero-border px-[11.2rem] hero_pad">
+    <section className="grid h-[71.3rem] md:h-[65rem] md:grid-normal">
+      <div className={` w-full  ${design === 'reverse'? 'bg-white text-black' : 'bg-black text-white'} flex justify-center items-center order-last md:order-none h-[41.9rem] md:h-full`}>
+        <div className="md:h-[30.4rem] md:hero-border px-[3.3rem] py-[7.2rem] md:py-0 md:px-[11.2rem] hero_pad">
           <h1 className="uppercase font-[600] mb-[2rem]">
-            create and share your photo stories.
+            {header}
           </h1>
           <p className="mb-[4rem] text-gray-400">
-            Photosnap is a platform for photographers and visual storytellers.
-            We make it easy to share photos, tell stories and connect with
-            others.
+            {details}
           </p>
-          <BtnArrow/>
+          <BtnArrow />
         </div>
       </div>
-      <div className="">
+      <div className="h-[29.4rem] md:h-fit">
         <picture>
           <source
             media="(min-width: 1024px)"
-            srcset={require("../assets/home/desktop/create-and-share.jpg")}
+            srcset={desktop}
           />
           <source
             media="(min-width: 768px)"
-            srcset={require("../assets/home/tablet/create-and-share.jpg")}
+            srcset={tablet}
           />
           <img
-            className=" w-full object-cover h-[65rem]"
-            src={require("../assets/home/mobile/create-and-share.jpg")}
+            className=" w-full object-cover h-[29.4rem] md:h-[65rem] "
+            src={mobile}
             alt="Create and Share       "
           />
         </picture>

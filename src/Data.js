@@ -33,6 +33,6 @@ export const data = [
       tablet: require("./assets/home/tablet/designed-for-everyone.jpg"),
       mobile: require("./assets/home/mobile/designed-for-everyone.jpg"),
     },
-    design: 'original'
+    design: 'reverse'
   },
 ];

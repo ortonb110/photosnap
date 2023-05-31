@@ -73,18 +73,14 @@
         border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 0 1;
     }
 
-    .grid-normal {
-        grid-template-columns: 42.36% 57.6%;
-    }
-    .grid-reversed {
-        grid-template-columns: 57.6% 42.36% ;
-    }
+    
 
     .fill {
        color: white;
     }
 
-      
+    
+  
 
 
     /* Screen Media Queries */
@@ -110,19 +106,21 @@
         .btn_default {
             padding: 1.2rem 2.6rem !important;
         }
+        .grid-normal {
+            grid-template-columns: 42.36% 57.6%;
+        }
+        .grid-reversed {
+            grid-template-columns: 57.6% 42.36%;
+        }
     }
     @media screen and (max-width: 767px) {
         .btn_default {
             padding: 1.2rem 0 !important;
             width: full;
         }
+        
 
-        .grid-normal {
-            grid-template-rows: 1fr 1fr;
-        }
-        .grid-reversed {
-            grid-template-columns:  35.54% 64.45%;
-        }
+       
     }
     @media screen and (min-width: 1550px) {
         .hero_pad {
