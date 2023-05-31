@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* DM Sans Font */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap');
 
 @layer base {
     /* Global classes */
@@ -44,7 +44,7 @@
     .btn {
         text-transform: uppercase;
         letter-spacing: 2px;
-        padding: 1.2rem 3.9rem;
+        
         font-size: 1.2rem;
         font-weight: bold;
     }
@@ -64,10 +64,22 @@
     .nav-items.active {
         border-width: 2px;
         border-style: solid;
-        
         border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 1 0;
     }
+    .hero-border {
+        
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 0 1;
+    }
 
+    .grid-temp {
+        grid-template-columns: 42.36% 57.6%;
+    }
+
+    .fill {
+       color: white;
+    }
 
 
     /* Screen Media Queries */
@@ -80,13 +92,18 @@
 
     @media screen and (min-width: 1024px) {
         .btn_default {
-            padding: 1.2rem 2.4rem !important;
+            padding: 1.2rem 2.6rem !important;
         }
     }
     @media screen and (max-width: 767px) {
         .btn_default {
             padding: 1.2rem 0 !important;
             width: full;
+        }
+    }
+    @media screen and (min-width: 1441px) {
+        .grid-temp {
+            grid-template-columns: 44% 56%;
         }
     }
 
