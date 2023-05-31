@@ -3,15 +3,15 @@ import React from "react";
 //Component
 import BtnArrow from "./BtnArrow";
 
-export default function Hero() {
+export default function Hero(props) {
   return (
-    <section className=" grid h-[65rem] grid-temp">
-      <div className="w-full bg-black text-white flex justify-center items-center">
-        <div className="h-[30.4rem] hero-border  px-[10.6rem]">
-          <h1 className="uppercase font-[600] mb-[2.1rem]">
+    <section className=" grid h-[65rem] grid-normal">
+      <div className="w-full bg-black text-white flex justify-center items-center ">
+        <div className="h-[30.4rem] hero-border px-[11.2rem] hero_pad">
+          <h1 className="uppercase font-[600] mb-[2rem]">
             create and share your photo stories.
           </h1>
-          <p className="mb-[4.8rem] text-lightGray">
+          <p className="mb-[4rem] text-gray-400">
             Photosnap is a platform for photographers and visual storytellers.
             We make it easy to share photos, tell stories and connect with
             others.

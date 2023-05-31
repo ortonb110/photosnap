@@ -1,10 +1,12 @@
-import React from 'react'
-import Hero from '../Components/Hero'
-
-
+import React, { Fragment } from "react";
+import Hero from "../Components/Hero";
+import HeroReversed from "../Components/Hero-Reversed";
 
 export default function Home() {
   return (
-    <Hero/>
-  )
+    <Fragment>
+      <Hero />
+      <HeroReversed />
+    </Fragment>
+  );
 }
