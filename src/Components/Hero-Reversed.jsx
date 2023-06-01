@@ -23,7 +23,7 @@ export default function HeroReversed({data}) {
           />
         </picture>
       </div>
-      <div className="w-full bg-black text-white flex justify-center items-center  md:order-none h-[41.9rem] md:h-full">
+      <div className={` w-full  ${design === 'reverse'? 'bg-white text-black' : 'bg-black text-white'} flex justify-center items-center  md:order-none h-[41.9rem] md:h-full`}>
         <div className="md:h-[30.4rem] px-[3.3rem] py-[7.2rem] md:py-0 md:px-[11.2rem] hero_pad">
           <h1 className="uppercase font-[600] mb-[2rem]">
             {header}
@@ -31,7 +31,7 @@ export default function HeroReversed({data}) {
           <p className="mb-[4rem] text-gray-400">
             {details}
           </p>
-          <BtnArrow />
+          <BtnArrow stroke={design} />
         </div>
       </div>
     </section>
