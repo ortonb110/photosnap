@@ -32,9 +32,10 @@
     h3 {
         font-size: 1.8rem;
         line-height: 25px;
-        letter-spacing: 0px;
+        letter-spacing: 0.5px;
+        font-weight: bold;
     }
-    h3 {
+    h4 {
         font-size: 1.2rem;
         line-height: 16px;
         letter-spacing: 2px;

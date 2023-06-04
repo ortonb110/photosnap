@@ -5,13 +5,13 @@ export default function HeroReversed({ data }) {
   const { header, details, image, design } = data;
   const { desktop, mobile, tablet } = image;
   return (
-    <section className="grid h-[71.3rem] md:h-[65rem] md:grid-reversed">
+    <section className={`grid h-[71.3rem] ${design === 'reverse'? 'md:h-[60rem]' : 'md:h-[65rem]'} md:grid-reversed `}>
       <div className="h-[29.4rem] md:h-fit">
         <picture>
           <source media="(min-width: 1024px)" srcset={desktop} />
           <source media="(min-width: 768px)" srcset={tablet} />
           <img
-            className=" w-full object-cover h-[29.4rem] md:h-[65rem] "
+            className={`w-full object-cover h-[29.4rem] ${design === 'reverse'? 'md:h-[60rem]' : 'md:h-[65rem]'}`}
             src={mobile}
             alt="Create and Share       "
           />

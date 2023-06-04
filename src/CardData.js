@@ -5,7 +5,6 @@ export const CardData = [
     author: "john appleseed",
     image: {
       desktop: require("./assets/stories/desktop/mountains.jpg"),
-      tablet: require("./assets/stories/tablet/mountains.jpg"),
       mobile: require("./assets/stories/mobile/mountains.jpg"),
     },
   },
@@ -15,7 +14,7 @@ export const CardData = [
     author: "benjamin cruz",
     image: {
       desktop: require("./assets/stories/desktop/cityscapes.jpg"),
-      tablet: require("./assets/stories/tablet/cityscapes.jpg"),
+
       mobile: require("./assets/stories/mobile/cityscapes.jpg"),
     },
   },
@@ -25,7 +24,7 @@ export const CardData = [
     author: "alexei borodin",
     image: {
       desktop: require("./assets/stories/desktop/18-days-voyage.jpg"),
-      tablet: require("./assets/stories/tablet/18-days-voyage.jpg"),
+
       mobile: require("./assets/stories/mobile/18-days-voyage.jpg"),
     },
   },
@@ -35,7 +34,7 @@ export const CardData = [
     author: "samantha brooke",
     image: {
       desktop: require("./assets/stories/desktop/architecturals.jpg"),
-      tablet: require("./assets/stories/tablet/architecturals.jpg"),
+
       mobile: require("./assets/stories/mobile/architecturals.jpg"),
     },
   },
@@ -45,7 +44,7 @@ export const CardData = [
     author: "timothy wagner",
     image: {
       desktop: require("./assets/stories/desktop/world-tour.jpg"),
-      tablet: require("./assets/stories/tablet/world-tour.jpg"),
+
       mobile: require("./assets/stories/mobile/world-tour.jpg"),
     },
   },
@@ -55,7 +54,7 @@ export const CardData = [
     author: "william malcolm",
     image: {
       desktop: require("./assets/stories/desktop/unforeseen-corners.jpg"),
-      tablet: require("./assets/stories/tablet/unforeseen-corners.jpg"),
+
       mobile: require("./assets/stories/mobile/unforeseen-corners.jpg"),
     },
   },
@@ -65,7 +64,7 @@ export const CardData = [
     author: "tim hillenburg",
     image: {
       desktop: require("./assets/stories/desktop/king-on-africa.jpg"),
-      tablet: require("./assets/stories/tablet/king-on-africa.jpg"),
+
       mobile: require("./assets/stories/mobile/king-on-africa.jpg"),
     },
   },
@@ -75,7 +74,7 @@ export const CardData = [
     author: "felicia rourke",
     image: {
       desktop: require("./assets/stories/desktop/trip-to-nowhere.jpg"),
-      tablet: require("./assets/stories/tablet/trip-to-nowhere.jpg"),
+
       mobile: require("./assets/stories/mobile/trip-to-nowhere.jpg"),
     },
   },
@@ -85,7 +84,7 @@ export const CardData = [
     author: "mohammed abdul",
     image: {
       desktop: require("./assets/stories/desktop/rage-of-the-sea.jpg"),
-      tablet: require("./assets/stories/tablet/rage-of-the-sea.jpg"),
+
       mobile: require("./assets/stories/mobile/rage-of-the-sea.jpg"),
     },
   },
@@ -95,7 +94,7 @@ export const CardData = [
     author: "michelle",
     image: {
       desktop: require("./assets/stories/desktop/running-free.jpg"),
-      tablet: require("./assets/stories/tablet/running-free.jpg"),
+
       mobile: require("./assets/stories/mobile/running-free.jpg"),
     },
   },
@@ -105,7 +104,7 @@ export const CardData = [
     author: "lamar wilson",
     image: {
       desktop: require("./assets/stories/desktop/behind-the-waves.jpg"),
-      tablet: require("./assets/stories/tablet/behind-the-waves.jpg"),
+
       mobile: require("./assets/stories/mobile/behind-the-waves.jpg"),
     },
   },
@@ -115,7 +114,7 @@ export const CardData = [
     author: "samantha brooke",
     image: {
       desktop: require("./assets/stories/desktop/calm-waters.jpg"),
-      tablet: require("./assets/stories/tablet/calm-waters.jpg"),
+
       mobile: require("./assets/stories/mobile/calm-waters.jpg"),
     },
   },
@@ -125,7 +124,7 @@ export const CardData = [
     author: "benjamin cruz",
     image: {
       desktop: require("./assets/stories/desktop/milky-way.jpg"),
-      tablet: require("./assets/stories/tablet/milky-way.jpg"),
+
       mobile: require("./assets/stories/mobile/milky-way.jpg"),
     },
   },
@@ -135,7 +134,7 @@ export const CardData = [
     author: "mohammed abdul",
     image: {
       desktop: require("./assets/stories/desktop/dark-forest.jpg"),
-      tablet: require("./assets/stories/tablet/dark-forest.jpg"),
+
       mobile: require("./assets/stories/mobile/dark-forest.jpg"),
     },
   },
@@ -145,7 +144,7 @@ export const CardData = [
     author: "michelle",
     image: {
       desktop: require("./assets/stories/desktop/somwarpet.jpg"),
-      tablet: require("./assets/stories/tablet/somwarpet.jpg"),
+
       mobile: require("./assets/stories/mobile/somwarpet.jpg"),
     },
   },
@@ -155,7 +154,7 @@ export const CardData = [
     author: "william malcolm",
     image: {
       desktop: require("./assets/stories/desktop/land-of-dreams.jpg"),
-      tablet: require("./assets/stories/tablet/land-of-dreams.jpg"),
+
       mobile: require("./assets/stories/mobile/land-of-dreams.jpg"),
     },
   },
