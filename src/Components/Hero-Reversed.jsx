@@ -31,7 +31,7 @@ export default function HeroReversed({ data }) {
         <div className="md:h-[30.4rem] px-[3.3rem] py-[7.2rem] md:py-0 md:px-[11.2rem] hero_pad">
           <h1 className="uppercase font-[600] mb-[2rem]">{header}</h1>
           <p className="mb-[4rem] text-gray-400">{details}</p>
-          <BtnArrow stroke={design} />
+          <BtnArrow stroke={design} name={'view the stories'} spacing={''}/>
         </div>
       </div>
     </section>

@@ -74,7 +74,16 @@
         border-style: solid;
         border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 0 1;
     }
+    .hero-border_bottom {
+        
+        border-width: 4px;
+        border-style: solid;
+        border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 1 0;
+    }
 
+    .overflow {
+        overflow-x: hidden !important;
+    }
     
 
     .fill {
@@ -150,7 +159,7 @@
         } 
     } */
 
-    @media screen and (min-width: 1441px) {
+    @media screen and (min-width: 1440px) {
         .responsive {
             display: flex !important;
             justify-content: center !important;

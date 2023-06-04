@@ -26,7 +26,7 @@ export default function Hero({ data }) {
             {header}
           </h1>
           <p className="mb-[4rem] text-gray-400">{details}</p>
-          <BtnArrow stroke={design} />
+          <BtnArrow stroke={design} name={'view the stories'} spacing={''}/>
         </div>
       </div>
       <div className="h-[29.4rem] lg:w-[83rem]">

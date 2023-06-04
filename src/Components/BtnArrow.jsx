@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function BtnArrow({ stroke }) {
+export default function BtnArrow({ name, stroke, spacing }) {
   return (
-    <button className="uppercase btn flex gap-[1.8rem] items-center hover:underline underline-offset-2">
-      <span>get an invite</span>
+    <button
+      className={`uppercase ${spacing} btn flex gap-[1.8rem] items-center hover:underline underline-offset-2`}
+    >
+      <span>{name}</span>
       <span className="">
         <svg xmlns="http://www.w3.org/2000/svg" width="43" height="14">
           <g
