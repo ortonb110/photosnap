@@ -5,20 +5,26 @@ export default function HeroReversed({ data }) {
   const { header, details, image, design } = data;
   const { desktop, mobile, tablet } = image;
   return (
-    <section className={`grid h-[71.3rem] ${design === 'reverse'? 'md:h-[60rem]' : 'md:h-[65rem]'} md:grid-reversed `}>
+    <section
+      className={`grid h-[71.3rem] ${
+        design === "reverse" ? "md:h-[60rem]" : "md:h-[65rem]"
+      } md:grid-reversed `}
+    >
       <div className="h-[29.4rem] md:h-fit">
         <picture>
           <source media="(min-width: 1024px)" srcset={desktop} />
           <source media="(min-width: 768px)" srcset={tablet} />
           <img
-            className={`w-full object-cover h-[29.4rem] ${design === 'reverse'? 'md:h-[60rem]' : 'md:h-[65rem]'}`}
+            className={`w-full lg:w-[83rem]  h-[29.4rem] ${
+              design === "reverse" ? "md:h-[60rem]" : "md:h-[65rem]"
+            }`}
             src={mobile}
             alt="Create and Share       "
           />
         </picture>
       </div>
       <div
-        className={` w-full  ${
+        className={` w-full lg:w-[61rem]  ${
           design === "reverse" ? "bg-white text-black" : "bg-black text-white"
         } flex justify-center items-center  md:order-none h-[41.9rem] md:h-full`}
       >
