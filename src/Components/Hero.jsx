@@ -8,9 +8,9 @@ export default function Hero({ data }) {
   const { desktop, mobile, tablet } = image;
   return (
     <section
-      className={`grid h-[71.3rem] ${
+      className={`responsive grid h-[71.3rem] ${
         design === "reverse" ? "md:h-[60rem]" : "md:h-[65rem]"
-      }  md:grid-normal`}
+      }  md:grid-normal `}
     >
       <div
         className={` w-full lg:w-[61rem] ${

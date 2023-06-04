@@ -6,7 +6,7 @@ export default function HeroReversed({ data }) {
   const { desktop, mobile, tablet } = image;
   return (
     <section
-      className={`grid h-[71.3rem] ${
+      className={`grid h-[71.3rem] responsive ${
         design === "reverse" ? "md:h-[60rem]" : "md:h-[65rem]"
       } md:grid-reversed `}
     >

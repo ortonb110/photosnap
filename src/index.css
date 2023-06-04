@@ -124,9 +124,36 @@
 
        
     }
-    @media screen and (min-width: 1550px) {
+    /* @media screen and (min-width: 1550px) {
         .hero_pad {
             padding-inline: 14rem !important;
+        } 
+    }
+    @media screen and (min-width: 1441px) {
+        .padding {
+            padding-inline: 0.5% !important;
+        } 
+    }
+    @media screen and (min-width: 1456px) {
+        .padding {
+            padding-inline: 0.8% !important;
+        } 
+    }
+    @media screen and (min-width: 1468px) {
+        .padding {
+            padding-inline: 3% !important;
+        } 
+    }
+    @media screen and (min-width: 1600px) {
+        .padding {
+            padding-inline: 10% !important;
+        } 
+    } */
+
+    @media screen and (min-width: 1441px) {
+        .responsive {
+            display: flex !important;
+            justify-content: center !important;
         } 
     }
 
