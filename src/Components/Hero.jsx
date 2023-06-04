@@ -20,23 +20,25 @@ export default function Hero({ data }) {
         <div
           className={`md:h-[30.4rem] ${
             design === "reverse" ? "" : "md:hero-border"
-          } px-[3.3rem] py-[7.2rem] md:py-0 md:px-[11.2rem] hero_pad`}
+          } px-[3rem] py-[7.2rem] md:py-0 md:px-[5.4rem] lg:px-[11.2rem] hero_pad`}
         >
-          <h1 className="uppercase font-[600] mb-[2rem]">{header}</h1>
+          <h1 className="uppercase font-[600] mb-[2rem] text-[3.2rem] md:text-[4rem]">
+            {header}
+          </h1>
           <p className="mb-[4rem] text-gray-400">{details}</p>
           <BtnArrow stroke={design} />
         </div>
       </div>
-      <div className="h-[29.4rem] md:h-fit">
+      <div className="h-[29.4rem] lg:w-[83rem]">
         <picture>
           <source media="(min-width: 1024px)" srcset={desktop} />
           <source media="(min-width: 768px)" srcset={tablet} />
           <img
-            className={`w-full lg:w-[83rem] object-cover h-[29.4rem] ${
+            className={`w-full object-cover lg:w-[83rem] h-[29.4rem] ${
               design === "reverse" ? "md:h-[60rem]" : "md:h-[65rem]"
             }`}
             src={mobile}
-            alt="Create and Share       "
+            alt={header}
           />
         </picture>
       </div>

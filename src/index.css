@@ -92,7 +92,7 @@
             padding: 1.2rem 2.2rem !important;
         }
         .grid-normal {
-            grid-template-columns: 64.45% 35.54%;
+            grid-template-columns: 65% 35%;
         }
         .grid-reversed {
             grid-template-columns:  35.54% 64.45%;
