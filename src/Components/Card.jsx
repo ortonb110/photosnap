@@ -15,7 +15,7 @@ export default function Card({ cardData }) {
           alt="Create and Share"
         />
       </picture>
-      <div className="absolute  bottom-[0.1rem] px-[4rem] text-white py-[4rem]  md:w-[36rem] bg-black bg-opacity-20 ">
+      <div className="absolute right-0 bottom-[0.1rem] px-[4rem] text-white py-[4rem] w-full md:w-[36rem] bg-black bg-opacity-20 ">
         <div className="border-b-[1px] mb-[2rem]">
           <h3 className="capitalize">{title}</h3>
           <p className="text-[1.3rem]">
