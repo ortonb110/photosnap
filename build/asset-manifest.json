@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dbb5618f.css",
+    "main.js": "/static/js/main.b0292dc6.js",
+    "static/js/787.9cd3c838.chunk.js": "/static/js/787.9cd3c838.chunk.js",
+    "static/media/beautiful-stories.jpg": "/static/media/beautiful-stories.6c250ef542724b88d6ea.jpg",
+    "static/media/cityscapes.jpg": "/static/media/cityscapes.333e560070c093aa40d3.jpg",
+    "static/media/architecturals.jpg": "/static/media/architecturals.a3f9dc371f2eff2e697d.jpg",
+    "static/media/king-on-africa.jpg": "/static/media/king-on-africa.46bb0121c1723a9ff4d3.jpg",
+    "static/media/create-and-share.jpg": "/static/media/create-and-share.3fa4a0483d66ead87742.jpg",
+    "static/media/designed-for-everyone.jpg": "/static/media/designed-for-everyone.217f9c316663935a2dd0.jpg",
+    "static/media/milky-way.jpg": "/static/media/milky-way.5ae9a1f25576c40f68aa.jpg",
+    "static/media/land-of-dreams.jpg": "/static/media/land-of-dreams.c0dd70b77f4a320da0c1.jpg",
+    "static/media/dark-forest.jpg": "/static/media/dark-forest.d50938fc56d2483fb8a9.jpg",
+    "static/media/world-tour.jpg": "/static/media/world-tour.a4be511d4dd2f7784a55.jpg",
+    "static/media/behind-the-waves.jpg": "/static/media/behind-the-waves.830a5f458c2782f6ee26.jpg",
+    "static/media/somwarpet.jpg": "/static/media/somwarpet.65e9fa957e019511657c.jpg",
+    "static/media/mountains.jpg": "/static/media/mountains.bfd60073ca981f34bd97.jpg",
+    "static/media/unforeseen-corners.jpg": "/static/media/unforeseen-corners.c1c8a9003fc5a561b3cb.jpg",
+    "static/media/trip-to-nowhere.jpg": "/static/media/trip-to-nowhere.1bffa8594f8eff9bb9b0.jpg",
+    "static/media/rage-of-the-sea.jpg": "/static/media/rage-of-the-sea.763dc05f6248fb8c8746.jpg",
+    "static/media/calm-waters.jpg": "/static/media/calm-waters.a9236af439d3875ebb79.jpg",
+    "static/media/running-free.jpg": "/static/media/running-free.2b76ab59f1225b3ffb95.jpg",
+    "static/media/18-days-voyage.jpg": "/static/media/18-days-voyage.e97725e333649ee7387a.jpg",
+    "static/media/logo.svg": "/static/media/logo.a44763db2338dbc834bf6d743a1f813f.svg",
+    "index.html": "/index.html",
+    "main.dbb5618f.css.map": "/static/css/main.dbb5618f.css.map",
+    "main.b0292dc6.js.map": "/static/js/main.b0292dc6.js.map",
+    "787.9cd3c838.chunk.js.map": "/static/js/787.9cd3c838.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbb5618f.css",
+    "static/js/main.b0292dc6.js"
+  ]
+}
