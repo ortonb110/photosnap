@@ -3,6 +3,7 @@ import Hero from "../Components/Hero";
 import HeroReversed from "../Components/Hero-Reversed";
 import CardContainer from "../Components/CardContainer";
 import ContainerFeatures from "../Components/ContainerFeatures";
+import Footer from "../Components/Footer";
 import { data } from "../Data";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Hero data={dataList[2]} />
       <CardContainer/>
       <ContainerFeatures/>
+      <Footer/>
     </Fragment>
   );
 }
