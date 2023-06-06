@@ -9,9 +9,9 @@ import { data } from "../Data";
 export default function Home() {
   const [dataList, setDataList] = useState(data);
 
-  // useEffect(() => {
-  //   alert("Warning, Site undergoing construction!");
-  // }, []);
+  useEffect(() => {
+    alert("Warning, Site undergoing construction!");
+  }, []);
   return (
     <Fragment>
       <Hero data={dataList[0]} />
