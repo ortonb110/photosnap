@@ -90,8 +90,13 @@
        color: white;
     }
 
-    
-  
+    /* For card black overlay */
+  .card::before {
+    content: "";
+    position: absolute;
+    inset:0 ;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 
 
     /* Screen Media Queries */
@@ -160,6 +165,12 @@
     } */
 
     @media screen and (min-width: 1440px) {
+        .responsive {
+            display: flex !important;
+            justify-content: center !important;
+        } 
+    }
+    @media screen and (min-width: 1023px) {
         .responsive {
             display: flex !important;
             justify-content: center !important;
