@@ -1,7 +1,9 @@
-import React from 'react'
+import HeroStories from "../Components/HeroStories"
 
 export default function Stories() {
   return (
-    <div>Stories</div>
+    <section>
+      <HeroStories/>
+    </section>
   )
 }
