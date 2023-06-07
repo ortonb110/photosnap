@@ -3,7 +3,7 @@ import React from "react";
 export default function BtnArrow({ name, stroke, spacing }) {
   return (
     <button
-      className={`uppercase ${spacing} btn flex gap-[1.8rem] items-center hover:underline underline-offset-2`}
+      className={`z-50 uppercase ${spacing} btn flex gap-[1.8rem] items-center hover:underline underline-offset-2`}
     >
       <span>{name}</span>
       <span className="">
