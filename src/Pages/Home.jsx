@@ -5,6 +5,7 @@ import CardContainer from "../Components/CardContainer";
 import ContainerFeatures from "../Components/ContainerFeatures";
 import Footer from "../Components/Footer";
 import { data } from "../Data";
+import {Featur} from "../FeaturesData";
 
 export default function Home() {
   const [dataList, setDataList] = useState(data);
@@ -18,7 +19,7 @@ export default function Home() {
       <HeroReversed data={dataList[1]} />
       <Hero data={dataList[2]} />
       <CardContainer/>
-      <ContainerFeatures/>
+      <ContainerFeatures Feature={Featur}/>
       <Footer/>
     </Fragment>
   );

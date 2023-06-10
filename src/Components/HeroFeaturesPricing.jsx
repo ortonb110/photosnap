@@ -2,21 +2,20 @@ import React from "react";
 
 //Component
 
-
 export default function HeroFeaturesPricing({ data }) {
-  const { header, details, image, design, height } = data;
+  const { header, details, image, design } = data;
   const { desktop, mobile, tablet } = image;
-  
+
   return (
     <section
-      className={`responsive grid h-[71.3rem] ${
+      className={`responsive grid h-[full] ${
         design === "reverse" ? "md:h-[60rem]" : "md:h-[49rem]"
       }  md:grid-normal `}
     >
       <div
         className={` w-full lg:w-[61rem] ${
           design === "reverse" ? "bg-white text-black" : "bg-black text-white"
-        } flex justify-center items-center order-last md:order-none h-[41.9rem] md:h-full`}
+        } flex justify-center items-center order-last md:order-none h-[30rem] md:h-full`}
       >
         <div
           className={`md:h-[14.4rem] ${
@@ -27,7 +26,6 @@ export default function HeroFeaturesPricing({ data }) {
             {header}
           </h1>
           <p className="mb-[4rem] text-gray-400">{details}</p>
-         
         </div>
       </div>
       <div className="h-[29.4rem] lg:w-[83rem]">
