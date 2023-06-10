@@ -1,7 +1,16 @@
-import React from 'react'
+import { Fragment } from "react"
+
+
+//Component imports
+import HeroFeaturesPricing from "../Components/HeroFeaturesPricing";
+
+//Data imports
+import {data} from '../Data';
 
 export default function Features() {
   return (
-    <div>Features</div>
+    <Fragment>
+      <HeroFeaturesPricing data={data[3]} />
+    </Fragment>
   )
 }

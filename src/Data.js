@@ -9,7 +9,8 @@ export const data = [
       tablet: require("./assets/home/tablet/create-and-share.jpg"),
       mobile: require("./assets/home/mobile/create-and-share.jpg"),
     },
-    design: 'original'
+    design: "original",
+   
   },
   {
     id: "02",
@@ -21,7 +22,8 @@ export const data = [
       tablet: require("./assets/home/tablet/beautiful-stories.jpg"),
       mobile: require("./assets/home/mobile/beautiful-stories.jpg"),
     },
-    design: 'reverse'
+    design: "reverse",
+   
   },
   {
     id: "03",
@@ -33,6 +35,33 @@ export const data = [
       tablet: require("./assets/home/tablet/designed-for-everyone.jpg"),
       mobile: require("./assets/home/mobile/designed-for-everyone.jpg"),
     },
-    design: 'reverse'
+    design: "reverse",
+   
+  },
+  {
+    id: "04",
+    header: "features",
+    details:
+      "We make sure all of features are designed to be loved by every aspiring and even professional photographers who wanted to share their stories.",
+    image: {
+      desktop: require("./assets/features/desktop/hero.jpg"),
+      tablet: require("./assets/features/tablet/hero.jpg"),
+      mobile: require("./assets/features/mobile/hero.jpg"),
+    },
+    design: "original",
+   
+  },
+  {
+    id: "05",
+    header: "pricing",
+    details:
+      "Create a 'your' stories, Photosnap is a platform for photographers and visual storytellers. It's the simple way to create and share your photos.",
+    image: {
+      desktop: require("./assets/pricing/desktop/hero.jpg"),
+      tablet: require("./assets/pricing/tablet/hero.jpg"),
+      mobile: require("./assets/pricing/mobile/hero.jpg"),
+    },
+    design: "original",
+ 
   },
 ];

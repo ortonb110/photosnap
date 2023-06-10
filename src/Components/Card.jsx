@@ -7,11 +7,11 @@ export default function Card({ cardData }) {
   return (
     <div className="card  w-full h-[37.5rem] md:h-[50rem] relative cursor-pointer col-span-1 hover:-translate-y-[2.4rem] transition-all ease-in-out duration-150 hover:border-b-4 border-red-500 transform-gpu">
       <picture className="">
-        <source media="(min-width: 1024px)" srcset={desktop} />
-        <source media="(min-width: 768px)" srcset={desktop} />
+        <source media="(min-width: 1024px)" srcSet={desktop} />
+        <source media="(min-width: 768px)" srcSet={desktop} />
         <img
           className=" h-full w-full object-cover"
-          src={mobile}
+          srcSet={mobile}
           alt="Create and Share"
         />
       </picture>
