@@ -152,6 +152,13 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.089) 31%, rgba(135, 13
             background-size: cover;
         }
 
+        .betaBackgroundImage {
+            background-image: url('./assets/shared/tablet/bg-beta.jpg');
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-position: center;
+            background-size: cover;
+        }
     }
 
     @media screen and (min-width: 1024px) {
@@ -168,9 +175,16 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.089) 31%, rgba(135, 13
             background-image: url('./assets//stories/desktop/moon-of-appalacia.jpg');
             background-repeat: no-repeat;
             object-fit: cover;
-            background-position: center;
+            
             background-size: cover;
         }
+        .betaBackgroundImage {
+            background-image: url('./assets/shared/desktop/bg-beta.jpg');
+            background-repeat: no-repeat;
+            object-fit: cover;
+            
+            background-size: cover;
+        } 
     }
     @media screen and (max-width: 767px) {
         .btn_default {
@@ -178,6 +192,13 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.089) 31%, rgba(135, 13
             width: full;
         }
         
+        .betaBackgroundImage {
+            background-image: url('./assets/shared/mobile/bg-beta.jpg');
+            background-repeat: no-repeat;
+            object-fit: cover;
+            
+            background-size: cover;
+        }
         
        
     }
