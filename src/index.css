@@ -77,6 +77,12 @@
     .border-color {
         border-image: linear-gradient(202deg, rgba(90,119,255,1) 55%, rgba(188,113,152,1) 85%, rgba(255,197,147,1) 99%) 0 0 0 1;
     }
+    .border-color-top {
+        border-image: linear-gradient(0deg, rgba(255,197,147,0.702019694533762) 99%, rgba(188,113,152,0.7373894694533762) 78%) 1 0 0 0;
+    }
+    .border-color-all {
+        border-image: linear-gradient(0deg, rgba(255,197,147,0.702019694533762) 99%, rgba(188,113,152,0.7373894694533762) 78%) 1 1 1 1;
+    }
     .hero-border_bottom {
         
         border-width: 4px;

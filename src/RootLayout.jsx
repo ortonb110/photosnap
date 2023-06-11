@@ -10,7 +10,6 @@ export default function RootLayout() {
 
   const openMenu = () => {
     setOpen(!open);
-    console.log(open);
   };
   
 

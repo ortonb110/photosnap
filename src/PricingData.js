@@ -2,7 +2,7 @@ export const Pricing = [
     {
         type: 'basic',
         description: 'Includes basic usage of our platform. recommended for new and aspiring photographers.',
-        price: 19.00,
+        price: 19,
         duration: {
             basic: 'month',
             pro: "year"
@@ -12,7 +12,7 @@ export const Pricing = [
     {
         type: 'pro',
         description: 'More advanced features available. Recommended for photography veterans abd professionals.',
-        price: 39.00,
+        price: 39,
         duration: {
             basic: 'month',
             pro: "year"
@@ -22,7 +22,7 @@ export const Pricing = [
     {
         type: 'business',
         description: 'Additional features available such as more detailed metrics. Recommended for business owners.',
-        price: 99.00,
+        price: 99,
         duration: {
             basic: 'month',
             pro: "year"

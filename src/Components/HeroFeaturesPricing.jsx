@@ -30,8 +30,8 @@ export default function HeroFeaturesPricing({ data }) {
       </div>
       <div className="h-[29.4rem] lg:w-[83rem]">
         <picture>
-          <source media="(min-width: 1024px)" srcset={desktop} />
-          <source media="(min-width: 768px)" srcset={tablet} />
+          <source media="(min-width: 1024px)" srcSet={desktop} />
+          <source media="(min-width: 768px)" srcSet={tablet} />
           <img
             className={`w-full object-cover lg:w-[83rem] h-[29.4rem] ${
               design === "reverse" ? "md:h-[60rem]" : "md:h-[49rem]"
