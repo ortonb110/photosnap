@@ -40,7 +40,7 @@ This is a solution to the [Photosnap Challenge on Frontend Mentor](https://www.f
 
 <h2 align="center">Links</h2>
 
-- Solution URL: [Loop Studio Landing Page(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/loopstudios-landing-page-cRKyFhhvQ9)
+- Solution URL: [Photosnap(React + Tailwind) | Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-photosnap-project-using-grid-flexbox-tailwindcss-q7uprGNRy3)
 - Live Site URL: [https://ortondev.noraveniintern.com/](https://ortondev.noraveniintern.com/)
 
 <br>
