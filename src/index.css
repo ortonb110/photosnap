@@ -196,10 +196,7 @@ background: linear-gradient(180deg, rgba(255, 255, 255, 0.089) 31%, rgba(135, 13
         } 
     }
     @media screen and (max-width: 767px) {
-        .btn_default {
-            padding: 1.2rem 0 !important;
-            width: full;
-        }
+        
         
         .betaBackgroundImage {
             background-image: url('./assets/shared/mobile/bg-beta.jpg');

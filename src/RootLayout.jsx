@@ -34,7 +34,7 @@ export default function RootLayout() {
           <div>
             <NavLink
               to={"/"}
-              className={`btn bg-black text-white btn_default hidden md:flex `}
+              className={`btn bg-black text-white py-[0.75rem] px-[2.4rem] hidden md:flex `}
             >
               get an invite
             </NavLink>
